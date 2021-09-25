@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:#078353;
+}
+
+input,button,select{
+  background-color:#066d44;
+  transition:background-color 0.3s;
+  border:none;
+  border-radius:5px;
+  color:white;
+  outline:none;
+}
+input[type="color"]:hover,button:hover,select:hover{
+  background-color:#079e62;
+}
+
+
+input[type="color"]{
+  width:100px;
+  height:50px;
+}
+
+.output{
+  width:200px;
+  background-color:#079e62;
+  transition:background-color 0.3s;
+}
+
+.output:hover{
+  background-color:#066d44;
+}
+
+.output::placeholder{
+  color:#000000;
+  text-align:center;
+}
+
+button{
+  width:90px;
+}
